@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -lwiringPi 
-OBJS = 4_LCD.o
+OBJS = 1_LED.o
 TARGET = executable
 
 $(TARGET) : $(OBJS)

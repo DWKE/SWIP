@@ -7,15 +7,18 @@
 
 void moveMotor(int degree)
 {
-    float dutyCycle = 2 + (degree / 180.0) * 10;        // the unit is %
-    int pulseWidth = dutyCycle * (PWM_RANGE/100.0);
-    printf("dutyCycle = %f\n", dutyCycle);
-    printf("pulseWidth = %d\n", pulseWidth);
+    float dutyCycle;        // the unit is %
+    int pulseWidth;
 
     // Insert your code here
+    dutyCycle = 2 + (degree / 180.0) * 10;        // the unit is %
+    pulseWidth = dutyCycle * (PWM_RANGE/100.0);
+    printf("dutyCycle = %f\n", dutyCycle);
+    printf("pulseWidth = %d\n", pulseWidth);
+    
     softPwmWrite(PIN, pulseWidth);
 }
-
+#if 1
 int main() 
 {
     int inputValue;         // the unit is degree
@@ -38,3 +41,4 @@ int main()
 
     return 0;
 }
+#endif
