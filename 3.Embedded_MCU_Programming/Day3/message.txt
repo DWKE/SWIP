@@ -1,1 +1,2 @@
-Foo Foo
+Hello World.
+Goodbye, see you later.

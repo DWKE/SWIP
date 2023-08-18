@@ -7,32 +7,15 @@
 
 #define SIZE 1024
 
-void sendFile(FILE *fp, int sockfd)
-{
-    char buffer[SIZE] = {0};
-
-    while(fgets(buffer, SIZE, fp)!=NULL) {
-        if(send(sockfd, buffer, sizeof(buffer), 0)== -1) {
-            perror("[Error] in sendung data");
-            exit(1);
-        }
-
-        printf("[SENT] %s", buffer);
-        bzero(buffer, SIZE);
-    }
-
-    fclose(fp);
-}
-
 int main()
 {
     char *ip = "172.16.0.90";       // IP address of server (RPi)
     int port = 8080;
     int ret;
-    char* msg = "NULL";
+    char buffer[SIZE] = {0};
 
     int serverSocket;
-    struct sockaddr serverAddress;
+    struct sockaddr_in serverAddress;
     FILE *fp;
     char *filename = "message.txt";
     
@@ -42,38 +25,45 @@ int main()
         exit(1);
     }
 
-    serverAddress.sa_family = AF_INET;
+    serverAddress.sin_family = AF_INET;
+    serverAddress.sin_port = port;
+    serverAddress.sin_addr.s_addr = inet_addr(ip);
     unsigned int sockLen = sizeof(serverAddress);
 
-    ret = bind(serverSocket, &serverAddress, sockLen);
+    ret = bind(serverSocket, (struct sockaddr*)&serverAddress, sockLen);
 
     if(ret < 0) {
         perror("[Error] in Binding");
         exit(1);
     }
 
+    printf("Waiting for client.\n");
     while(1) {
         ret = listen(serverSocket, 10);
-        if (ret == 0) {
-            ret = accept(serverSocket, &serverAddress, &sockLen);
-            
-            if(ret < 0) {
-                perror("[Error] in Accepting");
-                exit(1);
-            }
+        if(ret == -1) continue;
 
-            ret = recv(serverSocket, msg, SIZE, 0);
-
-            if(ret < 0) {
-                perror("[Error] in Receiving");
-                exit(1);
-            }
-
-            printf("%s\n", msg);
+        int newSocket;
+        unsigned int newSockLen;
+        newSocket = accept(serverSocket, (struct sockaddr*)&serverAddress, &newSockLen);
+        
+        if(newSocket < 0) {
+            perror("[Error] in Accepting");
+            exit(1);
         }
+
+        while(1) {
+            ret = recv(newSocket, buffer, sizeof(buffer), 0);
+            if (ret > 0) {
+                printf("%s", buffer);
+                bzero(buffer, SIZE);
+            } else if (ret <= 0) {
+                break;
+            }
+        }
+
     }
     
-    printf("\n[CLOSING] Disconnecting from the server.\n");
+    printf("\n[CLOSING] Closing server.\n");
     close(serverSocket);
     return 0;
 }
