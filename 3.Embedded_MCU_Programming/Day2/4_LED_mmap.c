@@ -39,6 +39,8 @@ int main()
     gpio[GPFSEL1_OFFSET/4] = (1 << 21);     // This means "gpio[1] = (1 << 21);"
                                             // or "gpio[1] = 0000 0000 0010 0000 0000 0000 0000 0000"
     printf("gpio = %p\n", gpio);            // Just wanted to see the mapped address in user space
+
+    
     
     while (1) {
         // The output "HIGH" of GPIO 17 can be controlled via GPSET0 (GPIO Pin Output Set Register 0)
