@@ -6,64 +6,88 @@
 #include <arpa/inet.h>
 
 #define SIZE 1024
+#define IP "172.16.0.90"
 
-int main()
+void receiveAndWriteIntoFile(int sockfd)
 {
-    char *ip = "172.16.0.90";       // IP address of server (RPi)
-    int port = 8080;
-    int ret;
-    char buffer[SIZE] = {0};
-
-    int serverSocket;
-    struct sockaddr_in serverAddress;
+    int receivedBytesTotal; 
     FILE *fp;
     char *filename = "message.txt";
+    char buffer[SIZE];
+
+    fp = fopen(filename, "w");
+    if(fp == NULL) {
+        perror("[Error] in creating file.");
+        exit(1);
+    }
+    while(1) {
+        receivedBytesTotal = recv(sockfd, buffer, SIZE, 0);
+        if(receivedBytesTotal <= 0)
+        {
+            break;
+        }
+        printf("[RECEVED] %s", buffer);
+        fprintf(fp, "%s", buffer);
+        bzero(buffer, SIZE);
+    }
+
+    fclose(fp);
+}
+
+void receiveAndPrint(int sockfd)
+{
+    int receivedBytesTotal; 
+    char buffer[SIZE];
+
+    while(1) {
+        receivedBytesTotal = recv(sockfd, buffer, SIZE, 0);
+        if(receivedBytesTotal <= 0)
+        {
+            break;
+        }
+        printf("[RECEVED] %s", buffer);
+        bzero(buffer, SIZE);
+    }
+}
+
+
+int main ()
+{
+    char *ip = IP;       // IP address of server (RPi)
+    int port = 8080;
+    int ret;
+    
+    int serverSocket, clientSocket;
+    struct sockaddr_in serverAddress, clientAddress;
+    socklen_t addrSize;
     
     serverSocket = socket(AF_INET, SOCK_STREAM, 0);
     if(serverSocket < 0) {
-        perror("[Error] in socket");
+        perror("[ERROR] in socket");
         exit(1);
     }
+    printf("[STARTING] TCP File Server started. \n");
 
     serverAddress.sin_family = AF_INET;
     serverAddress.sin_port = port;
     serverAddress.sin_addr.s_addr = inet_addr(ip);
-    unsigned int sockLen = sizeof(serverAddress);
 
-    ret = bind(serverSocket, (struct sockaddr*)&serverAddress, sockLen);
-
+    ret = bind(serverSocket,(struct sockaddr*)&serverAddress, sizeof(serverAddress));
     if(ret < 0) {
         perror("[Error] in Binding");
         exit(1);
     }
 
-    printf("Waiting for client.\n");
-    while(1) {
-        ret = listen(serverSocket, 10);
-        if(ret == -1) continue;
-
-        int newSocket;
-        unsigned int newSockLen;
-        newSocket = accept(serverSocket, (struct sockaddr*)&serverAddress, &newSockLen);
-        
-        if(newSocket < 0) {
-            perror("[Error] in Accepting");
-            exit(1);
-        }
-
-        while(1) {
-            ret = recv(newSocket, buffer, sizeof(buffer), 0);
-            if (ret > 0) {
-                printf("%s", buffer);
-                bzero(buffer, SIZE);
-            } else if (ret <= 0) {
-                break;
-            }
-        }
-
+    ret = listen(serverSocket, 10);
+    if(ret < 0) {
+        perror("[Error] in Binding");
+        exit(1);
     }
-    
-    printf("\n[CLOSING] Closing server.\n");
-    close(serverSocket);
-    return 0;
+
+    addrSize = sizeof(clientAddress);
+    clientSocket = accept(serverSocket,(struct sockaddr*)&clientAddress, &addrSize);
+
+    receiveAndWriteIntoFile(clientSocket);
+    receiveAndPrint(clientSocket);
+    printf("\n[CLOSING] Closing the server.\n");
 }

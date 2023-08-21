@@ -13,7 +13,7 @@ void sendFile(FILE *fp, int sockfd)
 
     while(fgets(buffer, SIZE, fp)!=NULL) {
         if(send(sockfd, buffer, sizeof(buffer), 0)== -1) {
-            perror("[Error] in sendung data");
+            perror("[Error] in sending data");
             exit(1);
         }
 
@@ -26,7 +26,7 @@ void sendFile(FILE *fp, int sockfd)
 
 int main()
 {
-    char *ip = "10.69.1.253";       // IP address of server (RPi)
+    char *ip = "172.16.0.90";       // IP address of server (RPi)
     int port = 8080;
     int ret;
 

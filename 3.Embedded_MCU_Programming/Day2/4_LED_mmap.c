@@ -49,6 +49,13 @@ int main()
         // The output "LOW" of GPIO 17 can be controlled via GPCLR0 (GPIO Pin Output Clear Register 0)
         // Insert your code here that makes GIPO 17 "LOW" via GPCLR0 and the sleeps for 1 second
 
+        gpio[GPSET0_OFFSET/4] = (1 << GPIO_PIN);
+        printf("HIGH: %p\n", gpio[GPSET0_OFFSET/4]);
+        sleep(1);
+
+        gpio[GPCLR0_OFFSET/4] =  (1 << GPIO_PIN);
+        printf("LOW: %p\n", gpio[GPCLR0_OFFSET/4]);
+        sleep(1);
     }
 
     return 0;
