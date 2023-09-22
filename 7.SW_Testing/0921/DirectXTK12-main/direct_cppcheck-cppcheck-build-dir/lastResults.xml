@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.12.0"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Windows.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Windows.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="93"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;d3d12.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;d3d12.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="150"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;dxgi1_4.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;dxgi1_4.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="153"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="180"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;atomic&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;atomic&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="181"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;array&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;array&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="182"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cassert&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cassert&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="183"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="184"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="185"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="186"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="187"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="188"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cwchar&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cwchar&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="189"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;exception&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;exception&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="190"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;initializer_list&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;initializer_list&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="191"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iterator&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iterator&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="192"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;list&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;list&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="193"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="194"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="195"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="196"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;new&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;new&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="197"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;set&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;set&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="198"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="199"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="200"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;system_error&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;system_error&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="201"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;tuple&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;tuple&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="202"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;type_traits&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;type_traits&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="203"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;utility&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;utility&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="204"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="205"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;future&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;future&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="209"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;functional&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;functional&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="214"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;malloc.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;malloc.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="217"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;DirectXMath.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;DirectXMath.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="221"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;DirectXPackedVector.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;DirectXPackedVector.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="222"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;DirectXCollision.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;DirectXCollision.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="223"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;wrl.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;wrl.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="234"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;wincodec.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;wincodec.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="238"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;OCIdl.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;OCIdl.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="243"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;mmreg.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;mmreg.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="248"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Audioclient.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Audioclient.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="249"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;xaudio2.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;xaudio2.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="255"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;xaudio2fx.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;xaudio2fx.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="256"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;x3daudio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;x3daudio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="260"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;xapofx.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;xapofx.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="263"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;xdk.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;xdk.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="127"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;grdk.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;grdk.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="138"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;gxdk.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;gxdk.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="107"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;unknwn.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;unknwn.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="96"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;wrl/client.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;wrl/client.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="232"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ocidl.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ocidl.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="241"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;directx/dxgiformat.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;directx/dxgiformat.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="146"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;directx/d3d12.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;directx/d3d12.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="147"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;dxguids/dxguids.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;dxguids/dxguids.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="148"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;directx/d3dx12.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;directx/d3dx12.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\pch.h" line="162"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;d3d12.h&amp;quot; not found." verbose="Include file: &amp;quot;d3d12.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\d3dx12.h" line="11"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _In_range_ is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _In_range_ is a macro then please configure it." file0="Src/BinaryReader.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\d3dx12.h" line="2532"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\BinaryReader.h" line="13"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;exception&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;exception&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\BinaryReader.h" line="14"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\BinaryReader.h" line="15"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;type_traits&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;type_traits&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\BinaryReader.h" line="16"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _In_reads_bytes_ is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _In_reads_bytes_ is a macro then please configure it." file0="Src/BinaryReader.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\BinaryReader.h" line="28"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;exception&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;exception&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\PlatformHelpers.h" line="15"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\PlatformHelpers.h" line="16"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;com_exception&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;com_exception&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Src/DescriptorHeap.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\PlatformHelpers.h" line="41"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.h" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.h" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.h" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.h" line="19"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.h" line="20"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;RenderTargetState.h&amp;quot; not found." verbose="Include file: &amp;quot;RenderTargetState.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.h" line="21"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _Inout_updates_ is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _Inout_updates_ is a macro then please configure it." file0="Src/AlphaTestEffect.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.h" line="113"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\SharedResourcePool.h" line="13"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\SharedResourcePool.h" line="14"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlignedNew.h" line="13"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlignedNew.h" line="14"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;new&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;new&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlignedNew.h" line="15"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;malloc.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;malloc.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlignedNew.h" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_VSAlphaTest.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_VSAlphaTest.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="106"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_VSAlphaTestNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_VSAlphaTestNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="107"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_VSAlphaTestVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_VSAlphaTestVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="108"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_VSAlphaTestVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_VSAlphaTestVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="109"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestLtGt.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestLtGt.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="111"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestLtGtNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestLtGtNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="112"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestEqNe.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestEqNe.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="113"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestEqNeNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;AlphaTestEffect_PSAlphaTestEqNeNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="114"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTest.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTest.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="76"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTestNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTestNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="77"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTestVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTestVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="78"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTestVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_VSAlphaTestVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="79"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestLtGt.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestLtGt.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="81"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestLtGtNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestLtGtNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="82"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestEqNe.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestEqNe.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="83"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestEqNeNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettAlphaTestEffect_PSAlphaTestEqNeNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\AlphaTestEffect.cpp" line="84"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess.h&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="16"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." verbose="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="17"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_VSQuadNoCB.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_VSQuadNoCB.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="92"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_VSQuad.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_VSQuad.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="93"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSCopy.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSCopy.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="95"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSMonochrome.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSMonochrome.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="96"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSSepia.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSSepia.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="97"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSDownScale2x2.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSDownScale2x2.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="98"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSDownScale4x4.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSDownScale4x4.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="99"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSGaussianBlur5x5.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSGaussianBlur5x5.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="100"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSBloomExtract.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSBloomExtract.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="101"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSBloomBlur.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSBloomBlur.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicPostProcess.cpp" line="102"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasic.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasic.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="212"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="213"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="214"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="215"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="216"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="217"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="218"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicTxVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicTxVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="219"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="221"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="222"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="223"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="224"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="226"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="227"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="228"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="229"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="231"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="232"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="233"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTxVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicVertexLightingTxVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="234"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="236"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="237"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="238"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTxVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_VSBasicPixelLightingTxVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="239"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasic.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasic.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="241"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="242"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="243"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="244"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicVertexLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicVertexLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="246"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicVertexLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicVertexLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="247"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicVertexLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicVertexLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="248"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicVertexLightingTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicVertexLightingTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="249"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="251"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BasicEffect_PSBasicPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;BasicEffect_PSBasicPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="252"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasic.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasic.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="86"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="87"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="88"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="89"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="90"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="91"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="92"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTxVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicTxVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="93"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="95"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="96"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="97"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="98"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="100"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="101"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="102"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="103"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="105"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="106"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="107"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTxVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicVertexLightingTxVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="108"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="110"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="111"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="112"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTxVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_VSBasicPixelLightingTxVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="113"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasic.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasic.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="115"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="116"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="117"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="118"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="120"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="121"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="122"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLightingTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicVertexLightingTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="123"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="125"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettBasicEffect_PSBasicPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BasicEffect.cpp" line="126"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;BufferHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;BufferHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BufferHelpers.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BufferHelpers.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\BufferHelpers.cpp" line="13"/>
+        </error>
+        <error id="catchExceptionByValue" severity="style" msg="Exception should be caught by reference." verbose="The exception is caught by value. It could be caught as a (const) reference which is usually recommended in C++." cwe="398" file0="Src/BufferHelpers.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\BufferHelpers.cpp" line="74"/>
+        </error>
+        <error id="catchExceptionByValue" severity="style" msg="Exception should be caught by reference." verbose="The exception is caught by value. It could be caught as a (const) reference which is usually recommended in C++." cwe="398" file0="Src/BufferHelpers.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\BufferHelpers.cpp" line="138"/>
+        </error>
+        <error id="catchExceptionByValue" severity="style" msg="Exception should be caught by reference." verbose="The exception is caught by value. It could be caught as a (const) reference which is usually recommended in C++." cwe="398" file0="Src/BufferHelpers.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\BufferHelpers.cpp" line="220"/>
+        </error>
+        <error id="catchExceptionByValue" severity="style" msg="Exception should be caught by reference." verbose="The exception is caught by value. It could be caught as a (const) reference which is usually recommended in C++." cwe="398" file0="Src/BufferHelpers.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\BufferHelpers.cpp" line="288"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\DDS.h" line="21"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DDSTextureLoader.h&amp;quot; not found." verbose="Include file: &amp;quot;DDSTextureLoader.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\LoaderHelpers.h" line="16"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;auto_delete_file&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;auto_delete_file&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Src/BufferHelpers.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\LoaderHelpers.h" line="990"/>
+        </error>
+        <error id="arithOperationsOnVoidPointer" severity="portability" msg="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined." verbose="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined. Arithmetic operations on &amp;#039;void *&amp;#039; is a GNU C extension, which defines the &amp;#039;sizeof(void)&amp;#039; to be 1." cwe="467" file0="Src/BufferHelpers.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\LoaderHelpers.h" line="471"/>
+        </error>
+        <error id="arithOperationsOnVoidPointer" severity="portability" msg="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined." verbose="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined. Arithmetic operations on &amp;#039;void *&amp;#039; is a GNU C extension, which defines the &amp;#039;sizeof(void)&amp;#039; to be 1." cwe="467" file0="Src/BufferHelpers.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\LoaderHelpers.h" line="500"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\CommonStates.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\CommonStates.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\CommonStates.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DDSTextureLoader.h&amp;quot; not found." verbose="Include file: &amp;quot;DDSTextureLoader.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DDSTextureLoader.cpp" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DDSTextureLoader.cpp" line="22"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DDSTextureLoader.cpp" line="24"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebug.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebug.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="118"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebugInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebugInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="119"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebugVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebugVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="121"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebugVcInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebugVcInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="122"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebugBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebugBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="124"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebugBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebugBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="125"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebugVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebugVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="127"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_VSDebugVcBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_VSDebugVcBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="128"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_PSHemiAmbient.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_PSHemiAmbient.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="130"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_PSRGBNormals.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_PSRGBNormals.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="131"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_PSRGBTangents.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_PSRGBTangents.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="132"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DebugEffect_PSRGBBiTangents.inc&amp;quot; not found." verbose="Include file: &amp;quot;DebugEffect_PSRGBBiTangents.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="133"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebug.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebug.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="67"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="68"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="70"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVcInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVcInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="71"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="73"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="74"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="76"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVcBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_VSDebugVcBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="77"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSHemiAmbient.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSHemiAmbient.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="79"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSRGBNormals.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSRGBNormals.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="80"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSRGBTangents.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSRGBTangents.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="81"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSRGBBiTangents.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDebugEffect_PSRGBBiTangents.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DebugEffect.cpp" line="82"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DescriptorHeap.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DescriptorHeap.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DirectXHelpers.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DirectXHelpers.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess.h&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="16"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." verbose="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="17"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_VSQuadDual.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_VSQuadDual.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="63"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSMerge.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSMerge.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="65"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess_PSBloomCombine.inc&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess_PSBloomCombine.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualPostProcess.cpp" line="66"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DualTextureEffect_VSDualTexture.inc&amp;quot; not found." verbose="Include file: &amp;quot;DualTextureEffect_VSDualTexture.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="100"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DualTextureEffect_VSDualTextureNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;DualTextureEffect_VSDualTextureNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="101"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DualTextureEffect_VSDualTextureVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;DualTextureEffect_VSDualTextureVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="102"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DualTextureEffect_VSDualTextureVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;DualTextureEffect_VSDualTextureVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="103"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DualTextureEffect_PSDualTexture.inc&amp;quot; not found." verbose="Include file: &amp;quot;DualTextureEffect_PSDualTexture.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="105"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DualTextureEffect_PSDualTextureNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;DualTextureEffect_PSDualTextureNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="106"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTexture.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTexture.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="76"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTextureNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTextureNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="77"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTextureVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTextureVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="78"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTextureVcNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_VSDualTextureVcNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="79"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_PSDualTexture.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_PSDualTexture.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="81"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_PSDualTextureNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettDualTextureEffect_PSDualTextureNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\DualTextureEffect.cpp" line="82"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectCommon.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="15"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="17"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;mSharing&amp;#039; is always true" verbose="Condition &amp;#039;mSharing&amp;#039; is always true" cwe="571" file0="Src/EffectFactory.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="189" info="Condition &amp;#039;mSharing&amp;#039; is always true"/>
+            <location file="Src\EffectFactory.cpp" line="183" info="Assuming that condition &amp;#039;mSharing&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;mSharing&amp;#039; is always true" verbose="Condition &amp;#039;mSharing&amp;#039; is always true" cwe="571" file0="Src/EffectFactory.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="234" info="Condition &amp;#039;mSharing&amp;#039; is always true"/>
+            <location file="Src\EffectFactory.cpp" line="228" info="Assuming that condition &amp;#039;mSharing&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;mSharing&amp;#039; is always true" verbose="Condition &amp;#039;mSharing&amp;#039; is always true" cwe="571" file0="Src/EffectFactory.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="277" info="Condition &amp;#039;mSharing&amp;#039; is always true"/>
+            <location file="Src\EffectFactory.cpp" line="271" info="Assuming that condition &amp;#039;mSharing&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;mSharing&amp;#039; is always true" verbose="Condition &amp;#039;mSharing&amp;#039; is always true" cwe="571" file0="Src/EffectFactory.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="374" info="Condition &amp;#039;mSharing&amp;#039; is always true"/>
+            <location file="Src\EffectFactory.cpp" line="368" info="Assuming that condition &amp;#039;mSharing&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;mSharing&amp;#039; is always true" verbose="Condition &amp;#039;mSharing&amp;#039; is always true" cwe="571" file0="Src/EffectFactory.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectFactory.cpp" line="447" info="Condition &amp;#039;mSharing&amp;#039; is always true"/>
+            <location file="Src\EffectFactory.cpp" line="441" info="Assuming that condition &amp;#039;mSharing&amp;#039; is not redundant"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." verbose="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectPipelineStateDescription.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectPipelineStateDescription.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectTextureFactory.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectTextureFactory.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DDSTextureLoader.h&amp;quot; not found." verbose="Include file: &amp;quot;DDSTextureLoader.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectTextureFactory.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectTextureFactory.cpp" line="15"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectTextureFactory.cpp" line="17"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;WICTextureLoader.h&amp;quot; not found." verbose="Include file: &amp;quot;WICTextureLoader.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectTextureFactory.cpp" line="18"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\EffectTextureFactory.cpp" line="20"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMap.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="175"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="176"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="177"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="179"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapFresnelBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapFresnelBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="180"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapPixelLightingBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_VSEnvMapPixelLightingBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="181"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMap.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="183"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="184"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpecular.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpecular.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="185"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpecularNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpecularNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="186"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="187"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="188"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLightingFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLightingFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="189"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLightingFresnelNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapPixelLightingFresnelNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="190"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="192"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="193"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="194"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnelNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnelNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="195"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="197"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="198"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="199"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnelNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;EnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnelNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="200"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMap.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="94"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="95"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="96"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="98"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapFresnelBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapFresnelBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="99"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapPixelLightingBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_VSEnvMapPixelLightingBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="100"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMap.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="102"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="103"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpecular.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpecular.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="104"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpecularNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpecularNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="105"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="106"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="107"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLightingFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLightingFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="108"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLightingFresnelNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapPixelLightingFresnelNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="109"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="111"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="112"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="113"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnelNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapSpherePixelLightingFresnelNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="114"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="116"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="117"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnel.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnel.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="118"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnelNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettEnvironmentMapEffect_PSEnvMapDualParabolaPixelLightingFresnelNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\EnvironmentMapEffect.cpp" line="119"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GamePad.h&amp;quot; not found." verbose="Include file: &amp;quot;GamePad.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GamePad.cpp" line="13"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;windows.gaming.input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;windows.gaming.input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\GamePad.cpp" line="425"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _Success_ is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _Success_ is a macro then please configure it." file0="Src/GamePad.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\GamePad.cpp" line="307"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Xinput.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Xinput.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\GamePad.cpp" line="1274"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Windows.Xbox.Input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Windows.Xbox.Input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\GamePad.cpp" line="845"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Windows.Foundation.Collections.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Windows.Foundation.Collections.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\GamePad.cpp" line="847"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GeometricPrimitive.h&amp;quot; not found." verbose="Include file: &amp;quot;GeometricPrimitive.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GeometricPrimitive.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GeometricPrimitive.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GeometricPrimitive.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GeometricPrimitive.cpp" line="15"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GeometricPrimitive.cpp" line="17"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GeometricPrimitive.cpp" line="19"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="Src/GeometricPrimitive.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\GeometricPrimitive.cpp" line="695"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." verbose="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Geometry.h" line="11"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;array&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;array&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\Bezier.h" line="13"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\Bezier.h" line="14"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;DirectXMath.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;DirectXMath.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\Bezier.h" line="15"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\GraphicsMemory.cpp" line="11"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;pix3.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;pix3.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\GraphicsMemory.cpp" line="16"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;pixmemory.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;pixmemory.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\GraphicsMemory.cpp" line="17"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;atomic&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;atomic&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\LinearAllocator.h" line="45"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Keyboard.h&amp;quot; not found." verbose="Include file: &amp;quot;Keyboard.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Keyboard.cpp" line="12"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Windows.Devices.Input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Windows.Devices.Input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\Keyboard.cpp" line="225"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Impl&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Impl&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Src/Keyboard.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\Keyboard.cpp" line="477"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;GameInput.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;GameInput.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\Keyboard.cpp" line="54"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\LinearAllocator.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Model.h&amp;quot; not found." verbose="Include file: &amp;quot;Model.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Model.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Model.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Model.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Model.cpp" line="15"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Model.cpp" line="16"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Model.cpp" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadCMO.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Model.h&amp;quot; not found." verbose="Include file: &amp;quot;Model.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadCMO.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadCMO.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Model.h&amp;quot; not found." verbose="Include file: &amp;quot;Model.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadSDKMESH.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadSDKMESH.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." verbose="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadSDKMESH.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadSDKMESH.cpp" line="16"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadSDKMESH.cpp" line="19"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadSDKMESH.cpp" line="20"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\SDKMesh.h" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Model.h&amp;quot; not found." verbose="Include file: &amp;quot;Model.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadVBO.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadVBO.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." verbose="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadVBO.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ModelLoadVBO.cpp" line="16"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdint&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\vbo.h" line="19"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Mouse.h&amp;quot; not found." verbose="Include file: &amp;quot;Mouse.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="12"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;Windows.Devices.Input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;Windows.Devices.Input.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="522"/>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &amp;#039;!&amp;#039; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="Src/Mouse.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="1627"/>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &amp;#039;!&amp;#039; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="Src/Mouse.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="1634"/>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &amp;#039;!&amp;#039; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="Src/Mouse.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="1635"/>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &amp;#039;!&amp;#039; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="Src/Mouse.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="1636"/>
+        </error>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &amp;#039;!&amp;#039; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="Src/Mouse.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="1637"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;GameInput.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;GameInput.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\Mouse.cpp" line="22"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="207"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="208"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="209"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="210"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="212"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="213"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpecBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpecBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="214"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpecBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpecBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="215"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="217"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="218"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpecInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpecInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="219"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpecInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpecInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="220"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="222"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="223"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpecBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxNoSpecBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="224"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpecBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSNormalPixelLightingTxVcNoSpecBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="225"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="227"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="228"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTxNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTxNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="229"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTxNoSpecBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_VSSkinnedPixelLightingTxNoSpecBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="230"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="232"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="233"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="234"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTxNoFogSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;NormalMapEffect_PSNormalPixelLightingTxNoFogSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="235"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="117"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVc.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVc.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="118"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="119"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="120"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="122"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="123"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpecBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpecBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="124"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpecBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpecBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="125"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="127"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="128"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpecInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpecInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="129"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpecInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpecInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="130"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="132"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="133"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpecBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxNoSpecBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="134"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpecBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSNormalPixelLightingTxVcNoSpecBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="135"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="137"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTxBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTxBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="138"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTxNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTxNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="139"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTxNoSpecBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_VSSkinnedPixelLightingTxNoSpecBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="140"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTx.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTx.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="142"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTxNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTxNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="143"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTxNoSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="144"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTxNoFogSpec.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettNormalMapEffect_PSNormalPixelLightingTxNoFogSpec.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\NormalMapEffect.cpp" line="145"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;Effects.h&amp;quot; not found." verbose="Include file: &amp;quot;Effects.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffectFactory.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffectFactory.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffectFactory.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffectFactory.cpp" line="15"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffectFactory.cpp" line="17"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;mSharing&amp;#039; is always true" verbose="Condition &amp;#039;mSharing&amp;#039; is always true" cwe="571" file0="Src/PBREffectFactory.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffectFactory.cpp" line="173" info="Condition &amp;#039;mSharing&amp;#039; is always true"/>
+            <location file="Src\PBREffectFactory.cpp" line="167" info="Assuming that condition &amp;#039;mSharing&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;mSharing&amp;#039; is always true" verbose="Condition &amp;#039;mSharing&amp;#039; is always true" cwe="571" file0="Src/PBREffectFactory.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffectFactory.cpp" line="209" info="Condition &amp;#039;mSharing&amp;#039; is always true"/>
+            <location file="Src\PBREffectFactory.cpp" line="203" info="Assuming that condition &amp;#039;mSharing&amp;#039; is not redundant"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSConstant.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSConstant.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="175"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSConstantBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSConstantBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="176"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSConstantInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSConstantInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="178"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSConstantBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSConstantBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="179"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSConstantVelocity.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSConstantVelocity.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="181"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSConstantVelocityBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSConstantVelocityBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="182"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSSkinned.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSSkinned.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="184"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_VSSkinnedBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_VSSkinnedBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="185"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_PSConstant.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_PSConstant.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="187"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_PSTextured.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_PSTextured.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="188"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_PSTexturedEmissive.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_PSTexturedEmissive.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="189"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_PSTexturedVelocity.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_PSTexturedVelocity.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="190"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PBREffect_PSTexturedEmissiveVelocity.inc&amp;quot; not found." verbose="Include file: &amp;quot;PBREffect_PSTexturedEmissiveVelocity.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="191"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstant.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstant.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="121"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="122"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="124"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantBnInst.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantBnInst.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="125"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantVelocity.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantVelocity.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="127"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantVelocityBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSConstantVelocityBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="128"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSSkinned.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSSkinned.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="130"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSSkinnedBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_VSSkinnedBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="131"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSConstant.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSConstant.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="133"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTextured.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTextured.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="134"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTexturedEmissive.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTexturedEmissive.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="135"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTexturedVelocity.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTexturedVelocity.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="136"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTexturedEmissiveVelocity.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettPBREffect_PSTexturedEmissiveVelocity.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PBREffect.cpp" line="137"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PrimitiveBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;PrimitiveBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PrimitiveBatch.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PrimitiveBatch.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\PrimitiveBatch.cpp" line="14"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _In_opt_count_ is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _In_opt_count_ is a macro then please configure it." file0="Src/PrimitiveBatch.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\PrimitiveBatch.cpp" line="30"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ResourceUploadBatch.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ResourceUploadBatch.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GenerateMips_main.inc&amp;quot; not found." verbose="Include file: &amp;quot;GenerateMips_main.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ResourceUploadBatch.cpp" line="34"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;rootSignature&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;rootSignature&amp;#039; a value by passing the value to the constructor in the initialization list." cwe="398" file0="Src/ResourceUploadBatch.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\ResourceUploadBatch.cpp" line="229"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;GenerateMipsResources&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;GenerateMipsResources&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Src/ResourceUploadBatch.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\ResourceUploadBatch.cpp" line="226"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Impl&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Impl&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="Src/ResourceUploadBatch.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\ResourceUploadBatch.cpp" line="298"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettGenerateMips_main.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettGenerateMips_main.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ResourceUploadBatch.cpp" line="28"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ScreenGrab.h&amp;quot; not found." verbose="Include file: &amp;quot;ScreenGrab.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ScreenGrab.cpp" line="25"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ScreenGrab.cpp" line="26"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SimpleMath.h&amp;quot; not found." verbose="Include file: &amp;quot;SimpleMath.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SimpleMath.cpp" line="12"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SkinnedEffect_VSSkinnedVertexLightingFourBones.inc&amp;quot; not found." verbose="Include file: &amp;quot;SkinnedEffect_VSSkinnedVertexLightingFourBones.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="112"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SkinnedEffect_VSSkinnedPixelLightingFourBones.inc&amp;quot; not found." verbose="Include file: &amp;quot;SkinnedEffect_VSSkinnedPixelLightingFourBones.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="113"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SkinnedEffect_VSSkinnedVertexLightingFourBonesBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;SkinnedEffect_VSSkinnedVertexLightingFourBonesBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="114"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SkinnedEffect_VSSkinnedPixelLightingFourBonesBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;SkinnedEffect_VSSkinnedPixelLightingFourBonesBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="115"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SkinnedEffect_PSSkinnedVertexLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;SkinnedEffect_PSSkinnedVertexLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="117"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SkinnedEffect_PSSkinnedVertexLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;SkinnedEffect_PSSkinnedVertexLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="118"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SkinnedEffect_PSSkinnedPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;SkinnedEffect_PSSkinnedPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="119"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedVertexLightingFourBones.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedVertexLightingFourBones.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="85"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedPixelLightingFourBones.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedPixelLightingFourBones.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="86"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedVertexLightingFourBonesBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedVertexLightingFourBonesBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="87"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedPixelLightingFourBonesBn.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_VSSkinnedPixelLightingFourBonesBn.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="88"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_PSSkinnedVertexLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_PSSkinnedVertexLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="90"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_PSSkinnedVertexLightingNoFog.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_PSSkinnedVertexLightingNoFog.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="91"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_PSSkinnedPixelLighting.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSkinnedEffect_PSSkinnedPixelLighting.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SkinnedEffect.cpp" line="92"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SpriteBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;SpriteBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="15"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="16"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." verbose="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="20"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SpriteEffect_SpriteVertexShader.inc&amp;quot; not found." verbose="Include file: &amp;quot;SpriteEffect_SpriteVertexShader.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="44"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SpriteEffect_SpritePixelShader.inc&amp;quot; not found." verbose="Include file: &amp;quot;SpriteEffect_SpritePixelShader.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="45"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SpriteEffect_SpriteVertexShaderHeap.inc&amp;quot; not found." verbose="Include file: &amp;quot;SpriteEffect_SpriteVertexShaderHeap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="46"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SpriteEffect_SpritePixelShaderHeap.inc&amp;quot; not found." verbose="Include file: &amp;quot;SpriteEffect_SpritePixelShaderHeap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="47"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If _In_reads_ is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If _In_reads_ is a macro then please configure it." file0="Src/SpriteBatch.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="132"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpriteVertexShader.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpriteVertexShader.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="29"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpritePixelShader.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpritePixelShader.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="30"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpriteVertexShaderHeap.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpriteVertexShaderHeap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="31"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpritePixelShaderHeap.inc&amp;quot; not found." verbose="Include file: &amp;quot;XboxGamingScarlettSpriteEffect_SpritePixelShaderHeap.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteBatch.cpp" line="32"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteFont.cpp" line="12"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteFont.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;SpriteFont.h&amp;quot; not found." verbose="Include file: &amp;quot;SpriteFont.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteFont.cpp" line="15"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteFont.cpp" line="16"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteFont.cpp" line="19"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." verbose="Include file: &amp;quot;DescriptorHeap.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\SpriteFont.cpp" line="20"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;PostProcess.h&amp;quot; not found." verbose="Include file: &amp;quot;PostProcess.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CommonStates.h&amp;quot; not found." verbose="Include file: &amp;quot;CommonStates.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="16"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." verbose="Include file: &amp;quot;EffectPipelineStateDescription.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="17"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." verbose="Include file: &amp;quot;GraphicsMemory.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="18"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_VSQuad.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_VSQuad.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="134"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSCopy.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSCopy.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="136"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSSaturate.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSSaturate.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="137"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSReinhard.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSReinhard.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="138"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSACESFilmic.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSACESFilmic.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="139"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PS_SRGB.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PS_SRGB.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="140"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSSaturate_SRGB.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSSaturate_SRGB.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="141"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSReinhard_SRGB.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSReinhard_SRGB.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="142"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSACESFilmic_SRGB.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSACESFilmic_SRGB.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="143"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ToneMap_PSHDR10.inc&amp;quot; not found." verbose="Include file: &amp;quot;ToneMap_PSHDR10.inc&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\ToneMapPostProcess.cpp" line="144"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." verbose="Include file: &amp;quot;VertexTypes.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\VertexTypes.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;WICTextureLoader.h&amp;quot; not found." verbose="Include file: &amp;quot;WICTextureLoader.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\WICTextureLoader.cpp" line="25"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\WICTextureLoader.cpp" line="27"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." verbose="Include file: &amp;quot;ResourceUploadBatch.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\WICTextureLoader.cpp" line="30"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;XboxDDSTextureLoader.h&amp;quot; not found." verbose="Include file: &amp;quot;XboxDDSTextureLoader.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\XboxDDSTextureLoader.cpp" line="19"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." verbose="Include file: &amp;quot;DirectXHelpers.h&amp;quot; not found." sinceDate="yyyy-MM-dd">
+            <location file="Src\XboxDDSTextureLoader.cpp" line="23"/>
+        </error>
+        <error id="arithOperationsOnVoidPointer" severity="portability" msg="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined." verbose="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined. Arithmetic operations on &amp;#039;void *&amp;#039; is a GNU C extension, which defines the &amp;#039;sizeof(void)&amp;#039; to be 1." cwe="467" file0="Src/XboxDDSTextureLoader.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\XboxDDSTextureLoader.cpp" line="148"/>
+        </error>
+        <error id="arithOperationsOnVoidPointer" severity="portability" msg="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined." verbose="&amp;#039;ddsData.get()&amp;#039; is of type &amp;#039;void *&amp;#039;. When using void pointers in calculations, the behaviour is undefined. Arithmetic operations on &amp;#039;void *&amp;#039; is a GNU C extension, which defines the &amp;#039;sizeof(void)&amp;#039; to be 1." cwe="467" file0="Src/XboxDDSTextureLoader.cpp" sinceDate="yyyy-MM-dd">
+            <location file="Src\XboxDDSTextureLoader.cpp" line="174"/>
+        </error>
+    </errors>
+</results>

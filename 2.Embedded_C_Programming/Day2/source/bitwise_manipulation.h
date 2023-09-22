@@ -1,0 +1,1 @@
+extern void printBinary(int number, int nbitsToPrint);

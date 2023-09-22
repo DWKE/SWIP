@@ -1,0 +1,5 @@
+﻿-I"C:\Users\user\Desktop\lke\4. Matlab + Simulink + Stateflow\Day4"
+-I"C:\Users\user\Desktop\lke\4. Matlab + Simulink + Stateflow\Day4\Controller_sfcn_rtw"
+-I"C:\Program Files\MATLAB\R2022b\extern\include"
+-I"C:\Program Files\MATLAB\R2022b\simulink\include"
+-I"C:\Program Files\MATLAB\R2022b\rtw\c\src"

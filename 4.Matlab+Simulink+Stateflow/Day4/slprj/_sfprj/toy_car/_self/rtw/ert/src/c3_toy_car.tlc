@@ -1,0 +1,60 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  1 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   6 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_c3_toy_car"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_DIRECTION"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "ON.DIRECTION"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_SPEED"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "ON.SPEED"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "was_DIRECTION"\
+      Description  "StatePrevActiveChild"\
+      SFName       ""\
+      Path         "ON.DIRECTION"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "was_SPEED"\
+      Description  "StatePrevActiveChild"\
+      SFName       ""\
+      Path         "ON.SPEED"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

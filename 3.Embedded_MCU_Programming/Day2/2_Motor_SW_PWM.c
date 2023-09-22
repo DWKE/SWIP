@@ -18,7 +18,7 @@ void moveMotor(int degree)
     
     softPwmWrite(PIN, pulseWidth);
 }
-#if 1
+#if 0
 int main() 
 {
     int inputValue;         // the unit is degree

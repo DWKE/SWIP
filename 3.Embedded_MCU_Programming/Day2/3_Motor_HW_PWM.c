@@ -34,7 +34,7 @@ int main(void)
     // --> pinMode(), pwmSetMode(), pwmSetClock(), pwmSetRange()
     /////////////////////////////////////////////////////////////////////
     pinMode(PIN, PWM_OUTPUT);
-    pwmSetMode(PWM_MODE_MS);
+    pwmSetMode(PWM_MODE_BAL);
     pwmSetClock(PWM_CLOCK_DIVISOR);
     pwmSetRange(PWM_RANGE);
         

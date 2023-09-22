@@ -1,0 +1,6 @@
+Language: KR, EN, FR, JP, CN, TH
+Track: 1, 2, 3, 4
+Keep: enable, disable, auto
+Test: Black, White, Exp, Static
+VIP: Yes, No
+Font: Gothic, Italic, Bold, RS, TS
