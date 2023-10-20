@@ -6,9 +6,9 @@
  *
  * Code generated for Simulink model 'Day1_4_4_raspi'.
  *
- * Model version                  : 1.14
+ * Model version                  : 1.22
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Thu Oct 19 14:45:25 2023
+ * C/C++ source code generated on : Fri Oct 20 13:15:55 2023
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
